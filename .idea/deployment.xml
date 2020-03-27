@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData">
+  <component name="PublishConfigData" autoUpload="Always" serverName="root@0.ssh.ngrok.io:12763" createEmptyFolders="true">
     <serverData>
       <paths name="root@0.ssh.ngrok.io:10062">
         <serverdata>
@@ -9,7 +9,36 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="root@0.ssh.ngrok.io:10062 (1)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@0.ssh.ngrok.io:10062 (2)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@0.ssh.ngrok.io:12763">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/colab-ssh-connector" local="$PROJECT_DIR$/tests" />
+            <mapping deploy="/dl1" local="$PROJECT_DIR$/../envs/fastai_env/fastai_course_v3/course-v3/nbs/dl1" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="root@0.ssh.ngrok.io:18408">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@0.ssh.ngrok.io:19756">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
@@ -24,5 +53,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>

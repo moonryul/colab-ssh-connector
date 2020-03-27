@@ -44,7 +44,7 @@ def launch_ssh(token, password="", publish=True):
         '''curl http://localhost:4040/api/tunnels | python3 -c "import sys, json; print(json.load(sys.stdin)['tunnels'][0]['public_url'])"''')
 
 #  added by Moon Jung, 2020/3/26/02:37
-    publish = True
+#    publish = True
     if publish and info and info[0]:
         publish_host(info[0].decode().strip())
 
@@ -73,4 +73,4 @@ def publish_host(address):
     data = {"host": address}
 
     req = requests.put(url, json=data, headers=headers)
-    print("Published the host, See the vscode extension: ", req.text)
+ #   print("Published the host, See the vscode extension: ", req.text)
